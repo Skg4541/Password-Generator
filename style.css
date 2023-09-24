@@ -1,0 +1,101 @@
+html {
+  background-color: #07011c;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-size: 17px;
+  display: block;
+  margin: 6px 8px;
+  padding: 3px 1px;
+}
+
+input{
+  color: white;
+  background-color: #07011c;
+  box-shadow: 0px 0px 3px 2px #3d0be1;
+  margin-right:100px;
+}
+
+h1{
+  margin: 39px 0px;
+  padding: 12px 0px;
+}
+
+div{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 44px 0px;
+}
+
+#pass {
+  margin: 10px 0px;
+  padding: 7px 5px;
+  width: 400px;
+  height: 25px;
+  font-size: 28px;
+}
+
+.options{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 11px 0px;
+  padding: 4px 0px;
+}
+
+
+
+.strength{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 8px;
+  padding: 0px 1px;
+}
+
+.items{
+  margin: 38px 0px;
+  padding: 8px 1px;
+}
+
+.btn {
+  border: 1px solid black;
+  background-color: #0c022e;
+  color: white;
+  padding: 5px 25px;
+  margin: 7px 25px;
+  width: 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0px 0px 3px 2px #3d0be1;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#gen:hover {
+  background-color: #2c9b2c;
+}
+#copy:hover {
+  background-color: #f92415;
+}
